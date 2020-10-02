@@ -1,15 +1,15 @@
 package DataStructure;
 
-class node{
-    int data;
-    node next;
-    node(int data){
+class node<T>{
+    T data;
+    node<T> next;
+    node(T data){
         this.data = data;
         next = null;
     }
 }
-class Linked{
-    node Head;
+class Linked<T>{
+    node<T> Head;
     //To cheack emptyness
     boolean isempty(){
         if(Head == null) return true;
@@ -19,7 +19,7 @@ class Linked{
     int size(){
         int count = 0;
         if(isempty()) return -1;
-        node curr = Head;
+        node<T> curr = Head;
         while(curr != null){
             count++;
             curr = curr.next;
@@ -27,13 +27,13 @@ class Linked{
         return count;
     }
     // adding element at the end
-    void add(int data){
-        node new_node = new node(data);
+    void add(T data){
+        node<T> new_node = new node<>(data);
         if(isempty()){
             Head = new_node;
         }
         else{
-            node curr = Head;
+            node<T> curr = Head;
             while(curr.next != null){
                 curr = curr.next;
             }
@@ -42,7 +42,7 @@ class Linked{
     }
     //print the linked list
     void print(){
-        node curr = Head;
+        node<T> curr = Head;
         if(curr == null){
             System.out.println("Empty List");
         }
@@ -57,8 +57,8 @@ class Linked{
     //remove on the basis of index
     void remove(int index){
         if(index < size() && index!=0){
-            node curr = Head.next;
-            node precurr = Head;
+            node<T> curr = Head.next;
+            node<T> precurr = Head;
             int i=1;
             while(i<index){
                 precurr = curr;
@@ -75,11 +75,11 @@ class Linked{
         }
     }
     // insert on the basis of index
-    void insert(int index,int data){
-        node new_node = new node(data);
+    void insert(int index,T data){
+        node<T> new_node = new node<>(data);
         if(index <=size() && index!=0){
-            node curr = Head.next;
-            node precurr = Head;
+            node<T> curr = Head.next;
+            node<T> precurr = Head;
             int i=1;
             while(i<index){
                 precurr = curr;
@@ -98,9 +98,9 @@ class Linked{
         }
     }
     // modify the data in particular index
-    void set(int index,int data){
+    void set(int index,T data){
         if(index<size()){
-            node curr = Head;
+            node<T> curr = Head;
             int i=0;
             while(i<index){
                 curr=curr.next;
@@ -114,7 +114,7 @@ class Linked{
 
 public class linkedList{
     public static void main(String[] args) {
-        Linked l = new Linked();
+        Linked<Integer> l = new Linked<>();
         l.add(1);
         l.add(2);
         l.add(3);
