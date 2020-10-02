@@ -4,7 +4,9 @@ public class binarySearch {
     public static void main(String[] args) {
         int[] arr = {1,5,8,13,20,34,49,63};
         System.out.println(binaryRec(arr,0,arr.length-1,63));
+        System.out.println(binaryS(arr,63));
     }
+    // Iterative Approach
     static int binaryS(int[] arr,int data){
         int low = 0;
         int high = arr.length-1;
@@ -24,6 +26,7 @@ public class binarySearch {
         }
         return -1;
     }
+    // Recursive Approach
     static int binaryRec(int[] arr,int l,int r,int data){
         if(l<=r){
             int mid = (l+r)/2;
