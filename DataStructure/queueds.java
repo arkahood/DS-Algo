@@ -15,6 +15,15 @@ class queue<T>{
         if(rear == null) return true;
         return false;
     }
+    int size(){
+        int count=0;
+        queueNode<T> itr = front;
+        while(itr != null){
+            count++;
+            itr=itr.next;
+        }
+        return count;
+    }
     void enqueue(T data){
         queueNode<T> new_node = new queueNode<>(data);
         if(isempty()){
@@ -56,5 +65,6 @@ public class queueds {
         q.print();
         q.dequeue();
         q.print();
+        System.out.println("size: "+q.size());
     }
 }
