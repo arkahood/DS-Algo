@@ -10,6 +10,7 @@
 - DFS
 ### sorting and searching
 - Merge Sort
+- Quick Sort
 - Binary Search
 ### Dynamic Programming
 - Coin Change
