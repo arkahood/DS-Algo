@@ -5,8 +5,12 @@
  - Graph
 
 # Algorithm
+ - Graph
+    - BFS
+    - DFS
+ - sorting
+    - Merge Sort
  - Binary Search
- - Merge Sort
  - Primality Test
  - Kadane's Algorithm
  - GCD
