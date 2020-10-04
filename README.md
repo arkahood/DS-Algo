@@ -5,13 +5,14 @@
  - Graph
 
 # Algorithm
- - Graph
-    - BFS
-    - DFS
- - sorting
-    - Merge Sort
- - Binary Search
- - Primality Test
- - Kadane's Algorithm
- - GCD
- - Coin Change
+## Graph
+- BFS
+- DFS
+## sorting and searching
+- Merge Sort
+- Binary 
+## others
+- Primality Test
+- Kadane's Algorithm
+- GCD
+- Coin Change
