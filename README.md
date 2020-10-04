@@ -5,14 +5,16 @@
  - Graph
 
 # Algorithm
-## Graph
+### Graph
 - BFS
 - DFS
-## sorting and searching
+### sorting and searching
 - Merge Sort
-- Binary 
-## others
+- Binary Search
+### Dynamic Programming
+- Coin Change
+### others
 - Primality Test
 - Kadane's Algorithm
 - GCD
-- Coin Change
+- parenthesis checker
