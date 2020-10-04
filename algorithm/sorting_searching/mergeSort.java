@@ -1,4 +1,4 @@
-package algorithm.sorting;
+package algorithm.sorting_searching;
 
 public class mergeSort {
     public static void main(String[] args) {
