@@ -17,6 +17,7 @@
 ### Dynamic Programming
 - Coin Change
 - Longest Common Subsequence
+- KnapSack 0-1
 ### others
 - Primality Test
 - Kadane's Algorithm
