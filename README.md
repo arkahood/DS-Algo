@@ -2,7 +2,9 @@
  - LinkedList
  - Stack
  - Queue
+ - Binary Tree
  - Graph
+
 
 # Algorithm
 ### Graph
