@@ -16,6 +16,7 @@
 - Binary Search
 ### Dynamic Programming
 - Coin Change
+- Longest Common Subsequence
 ### others
 - Primality Test
 - Kadane's Algorithm
