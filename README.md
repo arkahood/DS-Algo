@@ -22,5 +22,6 @@
 - Primality Test
 - Binary Exponentiation
 - GCD
+- Prime Factorization
 - Kadane's Algorithm
 - parenthesis checker
