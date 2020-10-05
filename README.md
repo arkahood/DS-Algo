@@ -20,6 +20,7 @@
 - KnapSack 0-1
 ### others
 - Primality Test
-- Kadane's Algorithm
+- Binary Exponentiation
 - GCD
+- Kadane's Algorithm
 - parenthesis checker
