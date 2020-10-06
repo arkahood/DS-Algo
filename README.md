@@ -24,5 +24,6 @@
 - Binary Exponentiation
 - GCD
 - Prime Factorization
+- N-th Fibonacci Number(Using recurrence relation)
 - Kadane's Algorithm
 - parenthesis checker
