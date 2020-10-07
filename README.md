@@ -14,6 +14,7 @@
 ### sorting and searching
 - Merge Sort
 - Quick Sort
+- Bubble Sort
 - Binary Search
 ### Dynamic Programming
 - Coin Change
