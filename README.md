@@ -11,6 +11,7 @@
 ### Graph
 - BFS
 - DFS
+- Dijkstra’s Algorithm
 ### sorting and searching
 - Merge Sort
 - Quick Sort
