@@ -23,6 +23,7 @@
 - Longest Common Subsequence
 - KnapSack 0-1
 - Subset Sum
+- Minimum Subset Sum Difference
 ### others
 - Primality Test
 - Binary Exponentiation
