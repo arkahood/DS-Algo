@@ -22,6 +22,7 @@
 - Coin Change
 - Longest Common Subsequence
 - KnapSack 0-1
+- Subset Sum
 ### others
 - Primality Test
 - Binary Exponentiation
