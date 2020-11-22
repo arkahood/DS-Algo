@@ -14,7 +14,6 @@ class treeNode{
 }
 class Tree{
     private treeNode root;
-
     public Tree(){
         root = createTree();
     }
@@ -69,10 +68,10 @@ public class binaryTree{
         System.out.println("Pre Order : ");
         t.preorder(t.getRoot());
 
-        System.out.println("\n In order : ");
+        System.out.println("\nIn order : ");
         t.inorder(t.getRoot());
 
-        System.out.println("\n Post order : ");
+        System.out.println("\nPost order : ");
         t.postorder(t.getRoot());
 
     }

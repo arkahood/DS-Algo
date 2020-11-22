@@ -32,3 +32,4 @@
 - N-th Fibonacci Number(Using recurrence relation)
 - Kadane's Algorithm
 - parenthesis checker
+- Sieve of Eratosthenes
