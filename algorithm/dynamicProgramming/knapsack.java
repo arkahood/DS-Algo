@@ -13,7 +13,10 @@ public class knapsack {
         int val[] = new int[] { 60, 100, 120 }; 
         int wt[] = new int[] { 10, 20, 30 }; 
         int w = 50; 
+
         System.out.println(KnapSack(val,wt,w));
+
+        System.out.println(recKnapSack(val,wt,w,val.length));
     }
     static int KnapSack(int[] val,int[] wt,int w){
         int n = wt.length;
@@ -31,5 +34,19 @@ public class knapsack {
         }
 
         return arr[n][w];
+    }
+
+    // using recurssion
+
+    static int recKnapSack(int[] val,int[] wt,int w,int n){
+        if(n == 0 || w == 0){
+            return 0;
+        }
+        else if(wt[n-1] > w){
+            return recKnapSack(val, wt, w, n-1);
+        }
+        else{
+            return Math.max(val[n-1] + recKnapSack(val, wt, w-wt[n-1], n-1), recKnapSack(val, wt, w, n-1) );
+        }
     }
 }
