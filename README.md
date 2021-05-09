@@ -24,6 +24,8 @@
 - KnapSack 0-1
 - Subset Sum
 - Minimum Subset Sum Difference
+### Recursion and Backtracking
+- Matrix MN(all the paths)
 ### others
 - Primality Test
 - Binary Exponentiation
