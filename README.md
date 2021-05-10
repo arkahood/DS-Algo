@@ -26,6 +26,9 @@
 - Minimum Subset Sum Difference
 ### Recursion and Backtracking
 - Matrix MN(all the paths)
+- Josephus problem
+- Cheack if String is palindrome
+- print all Sub sequence of a string
 ### others
 - Primality Test
 - Binary Exponentiation
