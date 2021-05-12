@@ -30,6 +30,7 @@
 - Cheack if String is palindrome
 - print all Sub sequence of a string
 - Rat in a Maze
+- N queen problem
 ### others
 - Primality Test
 - Binary Exponentiation
