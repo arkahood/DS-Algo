@@ -31,6 +31,7 @@
 - print all Sub sequence of a string
 - Rat in a Maze
 - N queen problem
+- Catalan Number
 ### others
 - Primality Test
 - Binary Exponentiation
