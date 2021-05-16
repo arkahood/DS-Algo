@@ -31,7 +31,9 @@
 - print all Sub sequence of a string
 - Rat in a Maze
 - N queen problem
+- Permutation of Strings
 - Catalan Number
+- optimal Strategy for a coin game
 ### others
 - Primality Test
 - Binary Exponentiation
