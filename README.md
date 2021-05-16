@@ -4,6 +4,7 @@
  - Queue
  - Binary Tree
  - Graph
+ - Binary Search Tree
 
 
 # Algorithm
