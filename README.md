@@ -12,6 +12,7 @@
 ### Graph
 - BFS
 - DFS
+- Cycle Detection
 - Dijkstra’s Algorithm
 ### sorting and searching
 - Merge Sort
