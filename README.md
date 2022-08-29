@@ -5,6 +5,7 @@
  - Binary Tree
  - Graph
  - Binary Search Tree
+ - Trie
 
 
 # Algorithm
